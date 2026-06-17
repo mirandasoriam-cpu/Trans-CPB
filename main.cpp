@@ -14,6 +14,7 @@
 #include "utilidades.h"
 #include "constantes.h"
 #include "seeding.h"
+#include "ordenacion_comparativa.h"
 #include "include/busqueda_binaria.h"
 using namespace std;
 
@@ -93,23 +94,28 @@ if (necesitaSeeding(envios)) {
                 ordenarPorCiudad(envios);
                 pausa();
                 break;
-
+            
             case 9:
-                mostrarEstadoBuses(buses);
+                menuOrdenacionComparativa(envios);
                 pausa();
                 break;
 
             case 10:
-                mostrarRutasHorarios();
+                mostrarEstadoBuses(buses);
                 pausa();
                 break;
 
             case 11:
-                generarReporte(envios);
+                mostrarRutasHorarios();
                 pausa();
                 break;
 
             case 12:
+                generarReporte(envios);
+                pausa();
+                break;
+
+            case 13:
                 intercalarEnvios(envios);
                 pausa();
                 break;
