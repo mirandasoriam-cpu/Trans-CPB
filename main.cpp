@@ -13,7 +13,7 @@
 #include "reporte.h"
 #include "utilidades.h"
 #include "constantes.h"
-
+#include "seeding.h"
 using namespace std;
 
 // ====== VARIABLE GLOBAL: TOTAL DE ENVIOS ======
@@ -28,7 +28,10 @@ int main() {
     vector<Bus>   buses  = cargarBuses();
 
     inicializarBuses(buses);
-
+    
+if (necesitaSeeding(envios)) {
+    cargarDatosPrueba(envios, buses, totalEnviosRegistrados);
+}
     mostrarCaratula();
 
     cout << "Envios cargados: "       << envios.size()     << endl;
