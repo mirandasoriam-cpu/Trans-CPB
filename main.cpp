@@ -14,6 +14,7 @@
 #include "utilidades.h"
 #include "constantes.h"
 #include "seeding.h"
+#include "include/busqueda_binaria.h"
 using namespace std;
 
 // ====== VARIABLE GLOBAL: TOTAL DE ENVIOS ======
@@ -73,38 +74,42 @@ if (necesitaSeeding(envios)) {
                 buscarPorDestino(envios);
                 pausa();
                 break;
-
             case 5:
+                menuBusquedaBinaria(envios);
+    			pausa();
+    			break;    
+
+            case 6:
                 modificarEnvio(envios);
                 pausa();
                 break;
 
-            case 6:
+            case 7:
                 eliminarEnvio(envios, buses, totalEnviosRegistrados);
                 pausa();
                 break;
 
-            case 7:
+            case 8:
                 ordenarPorCiudad(envios);
                 pausa();
                 break;
 
-            case 8:
+            case 9:
                 mostrarEstadoBuses(buses);
                 pausa();
                 break;
 
-            case 9:
+            case 10:
                 mostrarRutasHorarios();
                 pausa();
                 break;
 
-            case 10:
+            case 11:
                 generarReporte(envios);
                 pausa();
                 break;
 
-            case 11:
+            case 12:
                 intercalarEnvios(envios);
                 pausa();
                 break;
