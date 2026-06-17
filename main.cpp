@@ -16,6 +16,7 @@
 #include "seeding.h"
 #include "ordenacion_comparativa.h"
 #include "include/busqueda_binaria.h"
+#include "include/reporte_pdf.h"
 using namespace std;
 
 // ====== VARIABLE GLOBAL: TOTAL DE ENVIOS ======
@@ -119,6 +120,10 @@ if (necesitaSeeding(envios)) {
                 intercalarEnvios(envios);
                 pausa();
                 break;
+            case 14:
+    			generarReportePDF(envios);
+    			pausa();
+    			break;
 
             case 0:
                 system("cls");
