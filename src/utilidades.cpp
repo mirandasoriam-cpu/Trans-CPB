@@ -44,18 +44,22 @@ void mostrarMenu() {
 
     cout << string(60, '=') << endl;
 
-    centrarTexto(" 1. Agregar nuevo envio",         60);
-    centrarTexto(" 2. Listar todos los envios",      60);
-    centrarTexto(" 3. Buscar envio por codigo",      60);
-    centrarTexto(" 4. Buscar envios por destino",    60);
-    centrarTexto(" 5. Modificar envio",              60);
-    centrarTexto(" 6. Eliminar envio",               60);
-    centrarTexto(" 7. Ordenar envios por ciudad",    60);
-    centrarTexto(" 8. Mostrar estado de buses",      60);
-    centrarTexto(" 9. Mostrar rutas y horarios",     60);
-    centrarTexto("10. Generar reporte completo",     60);
-    centrarTexto("11. Archivo de la jornada (manana/tarde)", 60);
-    centrarTexto(" 0. Salir",                        60);
+    centrarTexto(" 1. Agregar nuevo envio",              60);
+    centrarTexto(" 2. Listar todos los envios",           60);
+    centrarTexto(" 3. Buscar envio por codigo (lineal)",  60);
+    centrarTexto(" 4. Buscar envios por destino",         60);
+    centrarTexto(" 5. Busqueda binaria por codigo",       60);
+    centrarTexto(" 6. Modificar envio",                   60);
+    centrarTexto(" 7. Eliminar envio",                    60);
+    centrarTexto(" 8. Ordenar por ciudad (Bubble Sort)",  60);
+    centrarTexto(" 9. Comparar algoritmos de ordenacion", 60);
+    centrarTexto("10. Mostrar estado de buses",           60);
+    centrarTexto("11. Mostrar rutas y horarios",          60);
+    centrarTexto("12. Generar reporte completo",          60);
+    centrarTexto("13. Intercalar archivos por jornada",   60);
+    centrarTexto("14. Exportar reporte a PDF",             60);
+    centrarTexto(" 0. Salir",                             60);
+
 
     cout << string(60, '=') << endl;
 

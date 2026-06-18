@@ -1,0 +1,11 @@
+codigo,rem_nombre,rem_ci,rem_telefono,rem_correo,dest_nombre,dest_ci,dest_telefono,dest_correo,destino,peso,horario,costoBase,impuesto,costoTotal
+20260101-001,Carlos Mamani Quispe,7654321,71234567,carlos.mamani@gmail.com,Maria Lopez,8901234,76543210,,Santa Cruz,15,08:00,81,0,81
+20260101-002,Ana Flores Condori,4567890,78901234,ana.flores@hotmail.com,Roberto Gutierrez,,69876543,roberto.g@gmail.com,Cochabamba,8.5,07:30,31.45,0,31.45
+20260101-003,Luis Quispe Torrez,9012345,76549012,lquispe@gmail.com,Carmen Vargas,,78123456,,Sucre,42,18:00,184.8,2.64,187.44
+20260101-004,Sofia Mendoza Alva,3456789,77890123,sofia.m@yahoo.com,Pedro Rojas,5678901,71234890,pedrorojas@gmail.com,Tarija,5,14:00,23,0,23
+20260101-005,Jorge Aguilar Nina,6789012,79012345,jaguilar@gmail.com,Lucia Blanco,,77654321,,Cochabamba,75,10:00,277.5,8.325,285.825
+20260101-006,Patricia Choque Ramos,1234567,74561234,pchoque@gmail.com,Eduardo Salinas,2345678,73456789,,Santa Cruz,20,19:00,108,0,108
+20260101-007,Marco Villca Layme,5678901,72345678,mvillca@gmail.com,Rosa Soria,,76789012,,Oruro,10,07:30,37,0,37
+20260101-008,Elena Apaza Cruz,8901234,75678901,eapaza@gmail.com,Gabriel Torres,9876543,74567890,gtorres@gmail.com,Cobija,3.5,15:00,35,0,35
+20260101-009,Hugo Callisaya Lima,2345678,71122334,hcallisaya@gmail.com,Isabel Mamani,,73344556,,Cochabamba,55,21:00,203.5,4.625,208.125
+20260101-010,Beatriz Condori Poma,4321098,78877665,beatriz.c@gmail.com,Raul Herrera,6543210,72211334,rherrera@gmail.com,Santa Cruz,30,21:00,162,0,162
