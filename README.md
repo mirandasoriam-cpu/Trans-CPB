@@ -9,8 +9,8 @@
 | **Universidad** | UCB San Pablo — Facultad de Ingenieria       |
 | **Gestion**     | 1/2026                                       |
 
-|**Integrantes** | Miranda Soria Mario Joaquin |
-                 | Pinto Pardo Abdiel | 
+| Gestion | 1/2026 |
+| Integrantes | Miranda Soria Mario Joaquin, Pinto Pardo Abdiel |
              
 ## Descripcion del dominio
 
