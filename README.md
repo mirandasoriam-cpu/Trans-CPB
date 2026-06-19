@@ -10,8 +10,8 @@
 | **Gestion**     | 1/2026                                       |
 
 ---
-Integrantes: Miranda Soria Mario Joaquin
-             Pinto Pardo Abdiel 
+|Integrantes:|Miranda Soria Mario Joaquin|
+             |Pinto Pardo Abdiel| 
              
 ## Descripcion del dominio
 
