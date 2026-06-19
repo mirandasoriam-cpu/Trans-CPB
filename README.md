@@ -10,7 +10,9 @@
 | **Gestion**     | 1/2026                                       |
 
 ---
-
+Integrantes: Miranda Soria Mario Joaquin
+             Pinto Pardo Abdiel 
+             
 ## Descripcion del dominio
 
 Trans CPB gestiona envios de paquetes por bus entre La Paz y las principales ciudades de Bolivia (Santa Cruz, Cochabamba, Sucre, Tarija, Cobija, Trinidad y Oruro).
@@ -69,6 +71,7 @@ TransCPB.exe
 | 11     | Ver rutas, horarios y precios               |
 | 12     | Reporte completo por ciudad                 |
 | 13     | Intercalar archivos manana/tarde por codigo |
+| 14     | Generar reporte .PDF                        |
 | 0      | Guardar y salir                             |
 
 **Seeding automatico:** si el archivo de datos tiene menos de 10 registros al iniciar, el sistema carga 10 envios de prueba automaticamente.
